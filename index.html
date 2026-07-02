@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generator Master 2D & Filter V5.1</title>
+    <title>Generator Master 2D & Filter V5.2</title>
     <style>
         body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #f4f6f9; padding: 10px; color: #333; margin: 0; }
         .container { max-width: 750px; background: white; padding: 15px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 10px auto; box-sizing: border-box; }
@@ -332,7 +332,7 @@ function prosesAngkaMain() {
     globalCounts.all = semuaMasuk.size;
     globalCounts.p1 = pecah1.size;
     globalCounts.p2 = pecah2.size;
-    globalCounts.p3 = pecah3.size; // SUDAH DIPERBAIKI (Sebelumnya typo: pec3)
+    globalCounts.p3 = pecah3.size; // BARIS SENSITIF BERHASIL DIPERBAIKI TOTAL
     globalCounts.p4 = pecah4Plus.size;
 
     if(semuaMasuk.size > 0) { tampilkanHasilTeks('out-all', 'count-all', semuaMasuk); document.getElementById('box-all').style.display = 'block'; }
